@@ -1,0 +1,63 @@
+.card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 400px;
+        padding: 8px;
+        margin: 24px;
+        background-color: whitesmoke;
+        font-family: sans-serif;
+    }
+     
+    .card img {
+       max-width: 400px;
+    }
+     
+    .title {
+        padding-top: 16px;
+    }
+     
+    .container {
+        padding: 2px 16px;
+    }
+    #typing {
+
+        width: 0ch;
+        color: white;
+        float: left;
+        font-family: sans-serif;
+        font-weight:bold;
+        font-size: 60px;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 5s steps(22) 1s infinite alternate;
+    }
+    #typing span{
+    color:white;}
+
+    #crow {
+        float: left;
+
+  color: white;
+        font-family: consolas;
+        font-weight:bold;
+        font-size: 60px;
+        animation: crow 0.5s linear 0s infinite;
+    }
+    @keyframes typing {
+        from {
+            width: 0ch;
+        }
+        to {
+            width: 25ch;
+        }
+    }
+    @keyframes crow {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    .mv{
+        margin-left: 100px;
+    }

@@ -1,0 +1,123 @@
+
+
+<div
+  class="card"
+  style="
+    background-image: linear-gradient(
+      to bottom,
+      #051937,
+      #004d7a,
+      #008793,
+      #00bf72,
+      #a8eb12
+    );
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  "
+>
+     
+
+ 
+ 
+    
+    
+<p class="text-center" style="color: whitesmoke;margin-top: 13px;">games api with crud in nodejs</p>
+  <div class="container" style="margin-top: 5%;padding-left: 25%;">
+    
+    <div class="row">
+      <div class="col-6 col-sm-4"><div id="typing">
+        hit! below node <span> API </span>
+      </div></div>
+    
+      <div class="w-100 d-none d-md-block"></div>
+  
+      
+      <div class="col-6 col-sm-4"><div id="crow">|</div></div>
+      
+    </div>
+    <!-- <div class="d-grid">
+      
+      <button type="button" class="btn btn-outline-light" style="width: 200px;margin:10px;margin-left: 20%;" (click)="onBtnClick()">
+        <a routerLink="/postdata" class="nav-link" routerLinkActive="active"> Post data in Api with Form</a></button>
+      <button type="/button" class="btn btn-outline-light" style="width: 100px;margin-left: 25%;">Get data</button>
+    </div> -->
+  </div>
+  
+  <form style="width: 600px;background-color: #051937;color: white;border-radius: 3%;" id="form1">
+    <div class="form-group row mv" style="">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">game name</label>
+      <div class="col-sm-10" style="width: 200px;">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="gamename">
+      </div>
+    </div>
+    <div class="form-group row mv">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">gameid</label>
+      <div class="col-sm-10" style="width: 200px;">
+        <input type="password" class="form-control" id="inputPassword3" placeholder="gameid">
+      </div>
+    </div>
+    <fieldset class="form-group mv">
+      <div class="row">
+        <legend class="col-form-label col-sm-2 pt-0">ratings</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              one star
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              two star 
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              three star
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              four star
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              five star
+            </label>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <div class="form-group row mv">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary" id="btn1" >Sign in</button>
+      </div>
+    </div>
+  </form>
+  
+</div>
+
+
+<script>
+
+
+  const emailInput = document.getElementById("email");
+  const passwordInput = document.getElementById("password");  
+  const btn = document.getElementById("btn1");
+
+  btn.addEventListener("submit", () => {
+  const email = emailInput.value;
+  const password = passwordInput.value;
+
+  console.log("hello");
+
+
+</script>
