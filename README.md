@@ -1,6 +1,6 @@
 motive - post api form with angular and nodejs games api 
 
-api can be accessed in this repo in restapifolder =  https://github.com/RishikeshMane/angular_myapp
+## api can be accessed in this repo in restfull_games_apifolder =  https://github.com/RishikeshMane/Projectv1_demo.git
 
 completed work 
 
